@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website Layout Instruction</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;margin: 0;padding: 0;
+		}
+		header {
+			background-color: #333;color: #fff;
+			padding: 10px;display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		header h1 {
+			margin: 0;font-size: 2em;
+		}
+
+		nav ul {
+			margin: 0;padding: 0;
+			list-style: none;
+			display: flex;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		#banner {
+			height: 200px;
+			background-color: #eee;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#banner img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+
+		#main-content {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		article {
+			margin: 10px;padding: 10px;
+			background-color: #f5f5f5;
+			border: 1px solid #ccc;
+			flex-basis: calc(33.33% - 20px);
+			box-sizing: border-box;
+		}
+
+		article h2 {
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#sidebar {
+			padding: 10px;
+			background-color: #f5f5f5;
+			border: 1px solid #ccc;
+			flex-basis: 20%;
+		}
+
+		#sidebar h3 {
+			margin: 0;
+			font-size: 1.2em;
+		}
+
+		#sidebar ul {
+			margin: 0;
+			padding: 0;list-style: none;
+		}
+
+		#sidebar li {
+			margin: 5px 0;
+		}
+
+        #sidebar a {
+        	color: #333;
+        	text-decoration: none;
+        }
+
+        footer {
+        	background-color: #333;
+        	color: #fff;
+        	padding: 10px;
+        	text-align: center;
+        }
+
+        footer p {
+        	margin: 0;
+        	font-size: 0.8em;
+        }
+
+	</style>
+</head>
+<body>
+
+	<header><!-- Add any content for the header here -->
+
+		<h1>My Website</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<div id="banner">
+
+		<!-- Add any content for the banner here -->
+		<img src="humus.jpg" alt="Banner Image">
+
+	</div>
+
+	<div id="main-content">
+
+		<article>
+
+			<h2>Noise: The other pollution hurting our health</h2>
+			<p>One in five Europeans is regularly exposed to noise levels that could "significantly" damage their health, the World Health Organization says, and it updated guidelines on those levels in Europe on Tuesday. Environmental noise is among the "top environmental risks to health," according to the WHO report. More than 100 million Europeans are affected by road traffic noise alone each year. "Noise continues to be a concern," noted Dr. Dorota Jarosińska, program manager for living and working environments at the WHO regional office for Europe.<br>
+				<br>
+			The new guidelines are "an important update," given the evidence and links to health problems, said Stephen Stansfeld, professor at Barts and Queen Mary University of London and chair of the Guideline Development Group, an independent organization that advised WHO on the guidelines.<br>
+			<br>
+			Excessive noise can affect blood pressure, hypertension and heart disease, which can lead to heart attacks and mortality from cardiovascular disease. Children's cognition and health are also affected.</p>
+
+		</article>
+
+		<article>
+			<h2>City noise linked to hearing loss</h2>
+			<p>Urban noise pollution and hearing loss are closely linked, according to rankings of 50 large cities in both categories released on Friday, March 3. <br>
+				<br>
+			High-decibel urban areas – such as Guangzhou, New Delhi, Cairo and Istanbul – topped the list of cities where hearing was most degraded, researchers reported.<br>
+			<br>
+
+			Likewise, cities least afflicted by noise pollution – including Zurich, Vienna, Oslo and Munich – registered the lowest levels of decline in hearing.<br>
+			<br>
+
+			This statistical link does not necessarily mean the constant din of city life is the main driver of hearing loss, which can also be caused by infections, genetic disorders, premature birth, and even some medicines.<br>
+			<br>
+
+			The findings are also preliminary, and have yet to be submitted for peer-reviewed publication.<br>
+			<br>
+
+			“But this is a robust result,” said Henrik Matthies, managing director of Mimi Hearing Technologies, a German company that has amassed data on 200,000 people drawn from a hearing test administered via cell phones.<br>
+			<br>
+
+			“The fact that noise pollution and hearing loss have such a tight correlation points to an intricate relationship,” he told Agence France-Presse.<br>
+			<br>
+
+			Researchers at Mimi and Charite University Hospital in Berlin explored the link by constructing two separate databases.<br>
+			<br>
+
+			The first combined information from the World Health Organization (WHO) and Norwegian-based technology research group SINTEF to create a noise pollution ranking for cities around the world.</p>
+        </article>
+
+        <article>
+        	<h2>Humus</h2>
+        	<p>Humus is dark, organic material that forms in soil when plant and animal matter decays.
+
+			When plants drop leaves, twigs, and other material to the ground, it piles up. This material is called leaf litter. When animals die, their remains add to the litter. Over time, all this litter decomposes. This means it decays, or breaks down, into its most basic chemical elements. Many of these chemicals are important nutrients for the soil and organisms that depend on soil for life, such as plants. <br>
+			<br>
+			The thick brown or black substance that remains after most of the organic litter has decomposed is called humus. Earthworms often help mix humus with minerals in the soil. <br>
+			<br>
+			Humus contains many useful nutrients for healthy soil. One of the most important is nitrogen. Nitrogen is a key nutrient for most plants. Agriculture depends on nitrogen and other nutrients found in humus. <br>
+			<br>
+
+			Some experts think humus makes soil more fertile. Others say humus helps prevent disease in plants and food crops.</p>
+        </article>
+
+    </div>
+
+    <aside id="sidebar">
+    	<!-- Add any content for the sidebar here -->
+    	<h3>Links</h3>
+    	<ul>
+
+    		<li><a href="https://cnnphilippines.com/lifestyle/2018/10/11/Noise-pollution-World-Health-Organization.html">Noise: The other pollution hurting our health</a></li>
+    		<li><a href="https://www.rappler.com/science-nature/life-health/163100-city-noise-linked-hearing-loss">City noise linked to hearing loss</a></li>
+    		<li><a href="https://education.nationalgeographic.org/resource/humus/">Humus</a></li>
+
+    	</ul>
+    </aside>
+
+    	<footer>
+    		<!-- Add any content for the footer here -->
+    		<p>&copy;<a href="#" style="text-decoration: none; color: white;">2023 My Website</a></p>
+    	</footer>
+
+</body>
+</html>
